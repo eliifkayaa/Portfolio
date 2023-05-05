@@ -14,7 +14,7 @@
         <div class="container">
             <!-- Navbar Start -->
             <nav>
-                <img src="image/logo-social.png" class="logo">
+                <img src="image/logo.png" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -30,7 +30,7 @@
             <!--  Header Section Start -->
             <div class="header-text">
                 <p>Software Developer</p>
-                <h1>Hi, I'm <span>Elif</span><br>Gökçe From Turkey</h1>
+                <h1>Hi, I'm <span>Elif</span><br>Gökçe<br>From Turkey</h1>
             </div>
         </div>
     </div>
@@ -45,9 +45,9 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas deleniti qui atque,
-                        consectetur voluptate. Dolorum saepe nemo nihil at inventore, accusamus molestias ducimus
-                        perspiciatis mollitia rem nostrum voluptatum magnam!</p>
+                    <p>Hi everyone, I'm Elif Gokce. I am 25 years old. I love hiking, reading, camping and of course
+                        software development. I started writing in college. I love learning and developing new things.
+                    </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experince')">Experince</p>
@@ -55,22 +55,44 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>Frontend Development <i class="fa-solid fa-code" style="color: #ffffff;"></i>
+                                </span>
+                                <br>C#
+                                <br>Angular 15
+                                <br>React JS
+                                <br>JavaScript
+                                <br>ES6
+                                <br>Nodejs
+                                <br>HTML5
+                                <br>CSS - SASS
+                                <br>MongoDb
+                                <br>MsSql
+                            </li>
+                            <li><span>QA Engineer</span>
+                                <br>Java
+                                <br>Selenium
+                                <br>Appium
+                                <br>Cucumber
+                                <br>Postman
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experince">
                         <ul>
-                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>İgdaş IT Department | Software Intern</span><br>Sap/Abap Developer</li>
+                            <li><span>Emnora e-commerce Inc. | Software Intern</span><br>Web Developer</li>
+                            <li><span>Renova Consulting | Abap Consultant </span><br>Sap/Abap Developer</li>
+                            <li><span>Adm Electric R&D Center | Technology Development Engineer</span><br>
+                                Software Developer</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Siyavuşpaşa Vocational and Technical Anatolian High School</span>
+                                <br>Graphic Design and Photography</li>
+                            <li><span>Fırat University</span><br>Computer Engineer</li>
+                            <li><span>Nisantasi University</span><br>Computer Engineer</li>
+                            <li><span>Istanbul Education Academy</span><br>Frontend Development Training</li>
 
                         </ul>
                     </div>
@@ -153,8 +175,9 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <p><i class="fas fa-paper-plane"></i>elifkayagokce@outlook.com</p>
+                    <p><i class="fa-brands fa-github"></i>
+                        You can reach my projects on Github</p>
                     <div class="social-icons">
                         <a href="https://facebook.com"><i class="fab fa-twitter-square"></i></a>
                         <a href=""><i class="fab fa-facebook"></i></a>
@@ -164,12 +187,13 @@
                     <a href="image/ElifGökçe.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="contactForm" id="contactForm">
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -179,17 +203,6 @@
     </div>
 
     <!-- Contact End -->
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/c0906c6f91.js" crossorigin="anonymous"></script>
